@@ -1,0 +1,196 @@
+[
+
+    {
+        "id": 1,
+        "slika": {
+            "href": "#",
+            "putanja": "img/products/djecije_sobe/play/fiokar_play.jpg",
+            "alt": "fiokar"
+        },
+        "naziv": {
+            "ime": "Fiokar - Play",
+            "href": "#"
+        },
+        "kategorija": {
+            "nazivKategorije": "Djecije sobe",
+            "idKategorije": 1
+        },
+        "cijena": {
+            "aktuelna": "79,90 KM",
+            "del": "92,00 KM"
+        },
+        "badge": {
+            "klasa": "aa-badge aa-hot",
+            "ispis": "Poslednji komadi"
+        }
+    },
+    {
+        "id": 2,
+        "slika": {
+            "href": "#",
+            "putanja": "img/products/spavace_sobe/evergreen/komoda.jpg", 
+            "alt": "spavaca soba"
+        },
+        "naziv": {
+            "ime": "Komoda - Evergreen",
+            "href": "#"
+        },
+        "kategorija": {
+            "nazivKategorije": "Spavace sobe",
+            "idKategorije": 3
+        },
+        "cijena": {
+            "aktuelna": "62,00 KM",
+            "del": "75,00 KM"
+        },
+        "badge": {
+            "klasa": "aa-badge aa-sold-out",
+            "ispis": "30% Sniženje"
+        }
+    },
+    {
+        "id": 3,
+        "slika": {
+            "href": "#",
+            "putanja": "img/products/djecije_sobe/joy/garderober_joy.jpg",
+            "alt": "garderober"
+        },
+        "naziv": {
+            "ime": "Garderober - Joy",
+            "href": "#"
+        },
+        "kategorija": {
+            "nazivKategorije": "Djecije sobe",
+            "idKategorije": 1
+        },
+        "cijena": {
+            "aktuelna": "105,90 KM",
+            "del": "140,00 KM"
+        },
+        "badge": {
+            "klasa": "aa-badge aa-hot",
+            "ispis": "Poslednji komadi"
+        }
+    },
+    {
+        "id": 4,
+        "slika": {
+            "href": "#",
+            "putanja": "img/products/spavace_sobe/kan/plakar.jpg", 
+            "alt": "spavaca soba"
+        },
+        "naziv": {
+            "ime": "Plakar - Kan",
+            "href": "#"
+        },
+        "kategorija": {
+            "nazivKategorije": "Spavace sobe",
+            "idKategorije": 3
+        },
+        "cijena": {
+            "aktuelna": "120,00 KM",
+            "del": "130,00 KM"
+        },
+        "badge": {
+            "klasa": "aa-badge aa-sold-out",
+            "ispis": "25% Sniženje"
+        }
+    },
+    {
+        "id": 5,
+        "slika": {
+            "href": "#",
+            "putanja": "img/products/kuhinje/moder/radni_element_r40.jpg", 
+            "alt": "kuhinja"
+        },
+        "naziv": {
+            "ime": "Radni element - Play",
+            "href": "#"
+        },
+        "kategorija": {
+            "nazivKategorije": "Kuhinje",
+            "idKategorije": 4
+        },
+        "cijena": {
+            "aktuelna": "50,00 KM",
+            "del": "60,00 KM"
+        },
+        "badge": {
+            "klasa": "aa-badge aa-sold-out",
+            "ispis": "40% Sniženje"
+        }
+    },
+    {
+        "id": 6,
+        "slika": {
+            "href": "#",
+            "putanja": "img/products/dnevne_sobe/sara/tv_sto.jpg",
+            "alt": "komoda"
+        },
+        "naziv": {
+            "ime": "TV sto - Sara",
+            "href": "#"
+        },
+        "kategorija": {
+            "nazivKategorije": "Dnevne sobe",
+            "idKategorije": 2
+        },
+        "cijena": {
+            "aktuelna": "64,90 KM",
+            "del": "70,00 KM"
+        },
+        "badge": {
+            "klasa": "aa-badge aa-hot",
+            "ispis": "Poslednji komadi"
+        }
+    },
+    {
+        "id": 7,
+        "slika": {
+            "href": "#",
+            "putanja": "img/products/kuhinje/lira/radni_element_r40.jpg", 
+            "alt": "kuhinja"
+        },
+        "naziv": {
+            "ime": "Radni element - Lira",
+            "href": "#"
+        },
+        "kategorija": {
+            "nazivKategorije": "Kuhinje",
+            "idKategorije": 4
+        },
+        "cijena": {
+            "aktuelna": "45,00 KM",
+            "del": "60,00 KM"
+        },
+        "badge": {
+            "klasa": "aa-badge aa-sold-out",
+            "ispis": "40% Sniženje"
+        }
+    },
+    {
+        "id": 8,
+        "slika": {
+            "href": "#",
+            "putanja": "img/products/djecije_sobe/trio/nocni_sto_trio.jpg",
+            "alt": "garderober"
+        },
+        "naziv": {
+            "ime": "Nocni sto - Trio",
+            "href": "#"
+        },
+        "kategorija": {
+            "nazivKategorije": "Djecije sobe",
+            "idKategorije": 1
+        },
+        "cijena": {
+            "aktuelna": "40,90 KM",
+            "del": "50,00 KM"
+        },
+        "badge": {
+            "klasa": "aa-badge aa-hot",
+            "ispis": "Poslednji komadi"
+        }
+    }
+
+]

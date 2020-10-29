@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Dječije sobe"
+    },
+    {
+        "id": 2,
+        "title": "Dnevne sobe"
+    },
+    {
+        "id": 3,
+        "title": "Spavaće sobe"
+    },
+    {
+        "id": 4,
+        "title": "Kuhinje"
+    }
+]
