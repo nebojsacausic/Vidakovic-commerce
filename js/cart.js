@@ -54,12 +54,12 @@ function ispisProizvoda (data) {
                   <table class="table">
                     <thead>
                       <tr>
-                        <th>Obrisi</th>
+                        <th>Obriši</th>
                         <th>Slika</th>
-                        <th>Product</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Total</th>
+                        <th>Naziv proizvoda</th>
+                        <th>Cena</th>
+                        <th>Količina</th>
+                        <th>Ukupno</th>
                       </tr>
                     </thead>`
 	data.forEach( function(p) {
@@ -68,11 +68,11 @@ function ispisProizvoda (data) {
                     <tbody>
                       <tr>
                         <td><a class="remove" href="#" data-id='${p.id}'><fa class="fa fa-close"></fa></a></td>
-                        <td><a href="#"><img src="${p.slika.putanja}" alt="${p.slika.alt}"></a></td>
-                        <td><a class="aa-cart-title" href="#">${p.naziv.ime}</a></td>
-                        <td>KM ${p.cijena.aktuelna}</td>
+                        <td><img src="${p.slika.putanja}" alt="${p.slika.alt}"></td>
+                        <td>${p.naziv.ime}</td>
+                        <td>${p.cijena.aktuelna},00 KM</td>
                         <td>${p.kolicina}</td>
-                        <td>KM ${p.cijena.aktuelna * p.kolicina}</td>
+                        <td>${p.cijena.aktuelna * p.kolicina},00 KM</td>
                       </tr>
                       </tbody>`
 
@@ -89,7 +89,7 @@ function ispisProizvoda (data) {
                <table class="aa-totals-table">
                  <tbody>
                      <tr><th>Ukupno</th>
-                     <td>KM ${ukupnaCijena(data)}</td>
+                     <td>${ukupnaCijena(data)},00 KM</td>
                    </tr>
                  </tbody>
                </table>

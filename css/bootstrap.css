@@ -130,7 +130,17 @@ input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
+  background-color: #D70000;
+  color: #fff;
 }
+
+.add-to-cart:hover{
+  background-color: #fff;
+  border: 1px solid #D70000;
+  color: #D70000 !important;
+}
+
+
 button[disabled],
 html input[disabled] {
   cursor: default;

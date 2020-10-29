@@ -34,8 +34,7 @@ function superPonuda(data) {
 	  ispis += `
 				<li>
 				<figure>
-					<a class="aa-product-img" href="${element.slika.href}"><img src="${element.slika.putanja}" alt="${element.slika.alt}"></a>
-					<a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
+					<img src="${element.slika.putanja}" alt="${element.slika.alt}">
 					<figcaption>
 					<h4 class="aa-product-title"><a href="${element.naziv.href}">${element.naziv.ime}</a></h4>
 					<span class="aa-product-price">${element.cijena.aktuelna}</span><span class="aa-product-price"><del>${element.cijena.del}</del></span>

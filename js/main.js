@@ -97,9 +97,6 @@ function sortPodaci () {
 }
 
 
-
-
-
 function sortiranjeProizvoda(proizvodi, sort, order) {
     proizvodi.sort(function(a,b){
         let vrednostA = (sort=='cijena')? a.cijena.aktuelna : a.naziv.ime;
@@ -112,15 +109,6 @@ function sortiranjeProizvoda(proizvodi, sort, order) {
             return 0;
     });
 }
-
-
-
-
-
-
-
-
-
 
 
 function bindCartEvents() {
@@ -205,28 +193,14 @@ function dodajNoviULocal () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function ispisPojedinacnogProizvoda(proizvod){
   return ` <li>
             <figure>
                 <a class="aa-product-img" href="${proizvod.slika.href}"><img src="${proizvod.slika.putanja}" alt="${proizvod.slika.alt}"></a>
-                <input type="button" data-id=${proizvod.id} value="Add to cart" class="button btn add-to-cart" />
+                <input type="button" data-id=${proizvod.id} value="Dodaj u korpu" class="button btn add-to-cart" />
                 <figcaption>
-                <h4 clfunkcijaProizvodiass="aa-product-title"><a href="${proizvod.naziv.href}">${proizvod.naziv.ime}</a></h4>
-                <span class="aa-product-price">${proizvod.cijena.aktuelna}</span><span class="aa-product-price"><del>${proizvod.cijena.del}</del></span>
+                <h4 clfunkcijaProizvodiass="aa-product-title">${proizvod.naziv.ime}</h4>
+                <span class="aa-product-price">${proizvod.cijena.aktuelna},00 KM</span><span class="aa-product-price"><del>${proizvod.cijena.del}</del></span>
                 <p class="aa-product-descrip">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam accusamus facere iusto, autem soluta amet sapiente ratione inventore nesciunt a, maxime quasi consectetur, rerum illum.</p>
                 </figcaption>
             </figure>                      
