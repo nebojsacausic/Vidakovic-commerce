@@ -2201,6 +2201,23 @@ z-index:3;
 	margin-top: 10px;
 }
 
+@media (max-width: 1199px) {
+  #contactMap {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #contactMap, #contact {
+    float: none;
+    margin: auto;
+  }
+}
+
+
+
+
+
 #contact table{
 	padding: 15px;
 }
