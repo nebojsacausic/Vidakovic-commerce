@@ -2344,9 +2344,9 @@ z-index:3;
 }
 
 #akcija{
-  width: 100%;
+  width: 890px;
   height: 350px;
-  padding: 0px auto;
+  margin: 0px auto;
 }
 
 #akcija .bxslider{
