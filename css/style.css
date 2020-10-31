@@ -4365,3 +4365,10 @@ z-index:3;
   color: #D70000 !important;
 }
 
+#korpa{
+  font-weight: bold;
+}
+
+#korpa:hover{
+  opacity: 0.8;
+}
